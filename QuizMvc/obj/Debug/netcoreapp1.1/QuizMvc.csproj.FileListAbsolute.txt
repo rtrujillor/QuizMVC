@@ -1,0 +1,5 @@
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\bin\Debug\netcoreapp1.1\QuizMvc.deps.json
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\bin\Debug\netcoreapp1.1\QuizMvc.runtimeconfig.json
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\bin\Debug\netcoreapp1.1\QuizMvc.runtimeconfig.dev.json
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\obj\Debug\netcoreapp1.1\QuizMvc.csprojResolveAssemblyReference.cache
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\obj\Debug\netcoreapp1.1\QuizMvc.AssemblyInfo.cs

@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using QuizMvc.QuizApi;
 using AutoMapper;
+using System.Net.Http;
 
 namespace QuizMvc
 {
@@ -32,6 +33,7 @@ namespace QuizMvc
 
             var appSettings = Configuration.GetSection("AppSettings");
             services.Configure<AppSettings>(appSettings);
+            services.Configure<AppSettings>(options => Configuration.GetSection("AppSettings").Bind(options));
 
 
             // Add framework services.
@@ -40,13 +42,26 @@ namespace QuizMvc
 
             //Get value from appsettings
             var apiUri = "";
+            var apiKey = "";
             if(Configuration.GetSection("appSettings")["ApiHostUri"] != null &&
                 Configuration.GetSection("appSettings")["ApiHostUri"] != "") { 
                 apiUri = Configuration.GetSection("appSettings")["ApiHostUri"];
             }
+            if (Configuration.GetSection("appSettings")["ApimSubscritionKey"] != null &&
+                Configuration.GetSection("appSettings")["ApimSubscritionKey"] != "")
+            {
+                apiKey = Configuration.GetSection("appSettings")["ApimSubscritionKey"];
+            }
+
+            //Add a handler for the APIM subscription key
+            //DelegatingHandler[] myhandler = new DelegatingHandler[] {
+            //    new HeaderHandler(apiKey)
+            //};
+            services.AddScoped<HeaderHandler>(prov => new HeaderHandler(apiKey));
+
             // Add autorest generated quizclient proxy.
             services.AddScoped<IQuizAPIClient, QuizAPIClient>(
-                    prov => new QuizAPIClient(new Uri(apiUri))
+                    prov => new QuizAPIClient(new Uri(apiUri), handlers: new DelegatingHandler[] { prov.GetService<HeaderHandler>() })
                 );
         }
 

@@ -8,5 +8,6 @@ namespace QuizMvc
     public class AppSettings
     {
         public string ApiHostUri { get; set; }
+        public string ApimSubscritionKey { get; set; }
     }
 }
