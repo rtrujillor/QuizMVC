@@ -1,0 +1,9 @@
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\bin\Release\netcoreapp1.1\QuizMvc.deps.json
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\bin\Release\netcoreapp1.1\QuizMvc.runtimeconfig.json
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\bin\Release\netcoreapp1.1\QuizMvc.runtimeconfig.dev.json
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\bin\Release\netcoreapp1.1\QuizMvc.dll
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\bin\Release\netcoreapp1.1\QuizMvc.pdb
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\obj\Release\netcoreapp1.1\QuizMvc.csprojResolveAssemblyReference.cache
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\obj\Release\netcoreapp1.1\QuizMvc.AssemblyInfo.cs
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\obj\Release\netcoreapp1.1\QuizMvc.dll
+C:\Users\rtrujillor\development\cadhackathonsources\cadhackathonsources\src\QuizUI\QuizMvc\QuizMvc\obj\Release\netcoreapp1.1\QuizMvc.pdb
